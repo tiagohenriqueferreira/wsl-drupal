@@ -15,7 +15,7 @@ echo "██║░░██║██╔██╗██║  ░╚██╗██
 echo "██║░░██║██║╚████║  ░░████╔═████║░░╚═══██╗██║░░░░░"
 echo "╚█████╔╝██║░╚███║  ░░╚██╔╝░╚██╔╝░██████╔╝███████╗"
 echo "░╚════╝░╚═╝░░╚══╝  ░░░╚═╝░░╚═╝░░╚═════╝░╚══════╝"
-echo -e "\n🚀 Drupal Development Environment on Windows Subsystem Linux (Ubuntu)\n"
+echo -e "\n🚀 Drupal Development Environment on Windows Subsystem for Linux (Ubuntu)\n"
 
 # Color definitions
 GREEN='\033[0;32m'
@@ -229,11 +229,11 @@ fi
 # Final summary
 echo -e "\n${GREEN}Installation summary:${NC}"
 if [ $FAILED -eq 0 ]; then
-  echo -e "${GREEN}✓ Instalação concluída com sucesso! Todos os componentes foram instalados corretamente.${NC}"
+  echo -e "${GREEN}✓ Installation completed successfully! All components were installed correctly.${NC}"
 else
-  echo -e "${RED}✗ Instalação concluída com $FAILED erros.${NC}"
+  echo -e "${RED}✗ Installation completed with $FAILED errors.${NC}"
 fi
 
-echo -e "\nExecute '${GREEN}source ~/.bashrc${NC}' para carregar os novos aliases e funções."
-echo -e "Você pode diagnosticar as instalações usando o comando '${GREEN}versions${NC}'."
-echo -e "Reinicie o terminal para aplicar todas as configurações.\n"
+echo -e "\nRun '${GREEN}source ~/.bashrc${NC}' to load the new aliases and functions."
+echo -e "You can diagnose the installations using the '${GREEN}versions${NC}' command."
+echo -e "Please restart your terminal to apply all the configurations.\n"
